@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    password: cds_123
+    username: cds_admin
+    url: jdbc:postgresql://localhost:5432/Cafe Management System
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
